@@ -4,7 +4,7 @@ import {TodoList} from './todo_list';
 import {TodoForm} from './todo_form';
 @Component({
     selector: 'todo-app',
-    templateUrl: 'WebContent/html/todo/app.html',
+    templateUrl: 'html/todo/app.html',
     styles: ['a { cursor: pointer; cursor: hand; }'],
     directives: [TodoList, TodoForm]
 })

@@ -20,9 +20,9 @@
       System.config({
         transpiler: 'typescript', 
         typescriptOptions: { emitDecoratorMetadata: true }, 
-        packages: {'WebContent/script': {defaultExtension: 'ts'}} 
+        packages: {'script': {defaultExtension: 'ts'}} 
       });
-      System.import('WebContent/script/todo/main').then(null, console.error.bind(console));
+      System.import('script/todo/main').then(null, console.error.bind(console));
     </script>
 
   </head>

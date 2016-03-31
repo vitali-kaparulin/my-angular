@@ -8,7 +8,7 @@ import {Todo} from './todo';
       color: grey;
     }`
     ],
-    templateUrl: 'WebContent/html/todo/list.html'
+    templateUrl: 'html/todo/list.html'
 })
 export class TodoList {
     @Input() todos: Todo[];
