@@ -23,14 +23,16 @@
         typescriptOptions: { emitDecoratorMetadata: true }, 
         packages: {'script': {defaultExtension: 'ts'}} 
       });
-      System.import('script/todo/main').then(null, console.error.bind(console));
+/*       System.import('script/todo/main').then(null, console.error.bind(console)); */
+      System.import('script/numbers/main').then(null, console.error.bind(console));
     </script>
 
   </head>
 
   <!-- 3. Display the application -->
   <body>
-    <todo-app class="container" style="display: block">Loading...</todo-app>
+<!--     <todo-app class="container" style="display: block">Loading...</todo-app> -->
+    <numbers-app class="container" style="display: block">Loading...</numbers-app>
   </body>
 
 </html>
